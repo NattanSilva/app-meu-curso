@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meu Curso</string>
+
+    <string name="instituicao">Instituto EducaTech</string>
+    <string name="curso">Análise e Desenvolvimento de Sistemas</string>
+    <string name="logo_desc">Logotipo do curso</string>
+
+    <string name="descricao_curta">O curso forma profissionais capazes de projetar, desenvolver e manter sistemas de software, atuando em áreas como programação, banco de dados, engenharia de software e desenvolvimento de aplicações web, mobile e com inteligência artificial.</string>
+
+    <string name="btn_conheca_curso">Conheça o curso</string>
+    <string name="btn_disciplinas">Disciplinas</string>
+    <string name="btn_voltar">Voltar</string>
+
+    <string name="titulo_sobre">Sobre o curso</string>
+    <string name="img_curso_desc">Imagem representativa do curso</string>
+    <string name="duracao">Duração</string>
+    <string name="duracao_valor">3 anos</string>
+    <string name="modalidade">Modalidade</string>
+    <string name="modalidade_valor">Presencial</string>
+
+    <string name="descricao_detalhada">Com duração de três anos e modalidade presencial, o curso oferece uma formação completa. O estudante aprende desde a lógica de programação até a construção de sistemas completos, com foco em projetos práticos, arquitetura de software, banco de dados, aplicações web e mobile, além de inteligência artificial.</string>
+
+    <string name="titulo_disciplinas">Disciplinas</string>
+    <string name="subtitulo_disciplinas">Conheça as principais disciplinas da grade curricular do curso.</string>
+
+    <string name="disciplina_programacao">Programação</string>
+    <string name="disciplina_banco">Banco de Dados</string>
+    <string name="disciplina_engsoft">Engenharia de Software</string>
+    <string name="disciplina_web">Desenvolvimento Web</string>
+    <string name="disciplina_mobile">Desenvolvimento Mobile</string>
+    <string name="disciplina_ia">Inteligência Artificial</string>
+</resources>
