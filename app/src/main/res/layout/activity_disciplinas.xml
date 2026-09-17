@@ -40,25 +40,31 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
+                    android:id="@+id/cardProgramacao"
                     android:layout_width="0dp"
                     android:layout_height="140dp"
                     android:layout_marginEnd="6dp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_card"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <TextView
+                    <FrameLayout
                         android:layout_width="46dp"
                         android:layout_height="46dp"
                         android:background="@drawable/bg_circulo"
-                        android:backgroundTint="@color/card_programacao"
-                        android:gravity="center"
-                        android:text="P"
-                        android:textColor="@color/branco"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:backgroundTint="@color/card_programacao">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/disciplina_programacao"
+                            android:src="@drawable/ic_programacao" />
+                    </FrameLayout>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -72,25 +78,31 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/cardBanco"
                     android:layout_width="0dp"
                     android:layout_height="140dp"
                     android:layout_marginStart="6dp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_card"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <TextView
+                    <FrameLayout
                         android:layout_width="46dp"
                         android:layout_height="46dp"
                         android:background="@drawable/bg_circulo"
-                        android:backgroundTint="@color/card_banco"
-                        android:gravity="center"
-                        android:text="B"
-                        android:textColor="@color/branco"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:backgroundTint="@color/card_banco">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/disciplina_banco"
+                            android:src="@drawable/ic_banco_dados" />
+                    </FrameLayout>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -113,25 +125,31 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
+                    android:id="@+id/cardEngSoft"
                     android:layout_width="0dp"
                     android:layout_height="140dp"
                     android:layout_marginEnd="6dp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_card"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <TextView
+                    <FrameLayout
                         android:layout_width="46dp"
                         android:layout_height="46dp"
                         android:background="@drawable/bg_circulo"
-                        android:backgroundTint="@color/card_engsoft"
-                        android:gravity="center"
-                        android:text="E"
-                        android:textColor="@color/branco"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:backgroundTint="@color/card_engsoft">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/disciplina_engsoft"
+                            android:src="@drawable/ic_engenharia_software" />
+                    </FrameLayout>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -145,25 +163,31 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/cardWeb"
                     android:layout_width="0dp"
                     android:layout_height="140dp"
                     android:layout_marginStart="6dp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_card"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <TextView
+                    <FrameLayout
                         android:layout_width="46dp"
                         android:layout_height="46dp"
                         android:background="@drawable/bg_circulo"
-                        android:backgroundTint="@color/card_web"
-                        android:gravity="center"
-                        android:text="W"
-                        android:textColor="@color/branco"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:backgroundTint="@color/card_web">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/disciplina_web"
+                            android:src="@drawable/ic_web" />
+                    </FrameLayout>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -186,25 +210,31 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
+                    android:id="@+id/cardMobile"
                     android:layout_width="0dp"
                     android:layout_height="140dp"
                     android:layout_marginEnd="6dp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_card"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <TextView
+                    <FrameLayout
                         android:layout_width="46dp"
                         android:layout_height="46dp"
                         android:background="@drawable/bg_circulo"
-                        android:backgroundTint="@color/card_mobile"
-                        android:gravity="center"
-                        android:text="M"
-                        android:textColor="@color/branco"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:backgroundTint="@color/card_mobile">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/disciplina_mobile"
+                            android:src="@drawable/ic_mobile" />
+                    </FrameLayout>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -218,25 +248,31 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/cardIa"
                     android:layout_width="0dp"
                     android:layout_height="140dp"
                     android:layout_marginStart="6dp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_card"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <TextView
+                    <FrameLayout
                         android:layout_width="46dp"
                         android:layout_height="46dp"
                         android:background="@drawable/bg_circulo"
-                        android:backgroundTint="@color/card_ia"
-                        android:gravity="center"
-                        android:text="IA"
-                        android:textColor="@color/branco"
-                        android:textSize="14sp"
-                        android:textStyle="bold" />
+                        android:backgroundTint="@color/card_ia">
+
+                        <ImageView
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/disciplina_ia"
+                            android:src="@drawable/ic_ia" />
+                    </FrameLayout>
 
                     <TextView
                         android:layout_width="wrap_content"

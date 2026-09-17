@@ -30,4 +30,18 @@
     <string name="disciplina_web">Desenvolvimento Web</string>
     <string name="disciplina_mobile">Desenvolvimento Mobile</string>
     <string name="disciplina_ia">Inteligência Artificial</string>
+
+    <!-- Tela de detalhes da disciplina -->
+    <string name="label_carga_horaria">Carga Horária</string>
+    <string name="label_modalidade">Modalidade</string>
+    <string name="label_descricao">Sobre a disciplina</string>
+    <string name="label_informacoes">Informações adicionais</string>
+    <string name="label_professor">Professor</string>
+    <string name="label_nivel">Nível</string>
+    <string name="label_semestre">Semestre</string>
+
+    <string name="btn_compartilhar">Compartilhar</string>
+    <string name="btn_ir_home">Ir para Home</string>
+    <string name="share_subject">Detalhes da disciplina</string>
+    <string name="erro_disciplina">Disciplina não encontrada</string>
 </resources>

@@ -26,6 +26,10 @@
             android:name=".DisciplinasActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".DetalhesDisciplinaActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
